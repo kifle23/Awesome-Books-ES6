@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  height: 100vh;
+  position: relative;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 3px solid #000;
+  box-shadow: 1px 2px;
+  margin: 10px 15px;
+}
+
+.logo {
+  font-weight: 900;
+  color: #000;
+  text-decoration: none;
+}
+
+nav > ul {
+  display: flex;
+  list-style-type: none;
+  gap: 25px;
+}
+
+.right-border {
+  border-right: 1px solid #000;
+  padding-right: 25px;
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 900;
+}
+
+.active {
+  border: 1px solid #000;
+}
+
+.date-time {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 15px;
+  color: #000;
+  font-weight: 700;
+}
+
+.list,
+.add-new {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 15px;
+}
+
+.list {
+  padding: 20px 15px;
+  display: flex;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 900;
+  margin: 120px 0 20px 0;
+}
+
+table {
+  border: 3px solid #000;
+  box-shadow: 1px 2px;
+  font-weight: 700;
+  margin-top: 20px;
+  width: 100%;
+}
+
+table:empty {
+  border: none;
+}
+
+.removeBtn {
+  width: 100px;
+  border: 2px solid #000;
+  color: #000;
+  font-weight: 700;
+  font-size: 17px;
+  padding: 5px;
+  box-shadow: 2px 4px;
+}
+
+tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  gap: 200px;
+}
+
+tr:nth-child(2n + 1) {
+  background-color: rgba(128, 128, 128, 0.404);
+}
+
+hr {
+  border: 1px solid #000;
+  width: 20%;
+  margin: 30px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 35px;
+  margin-top: 20px;
+}
+
+input {
+  width: 500px;
+  padding: 10px;
+  font-weight: 900;
+  font-size: 20px;
+  border: 3px solid #000;
+  box-shadow: 1px 2px;
+}
+
+::placeholder {
+  color: #000;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+form > button {
+  width: 50px;
+  border: 2px solid #000;
+  color: #000;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 20px;
+  box-shadow: 2px 4px;
+}
+
+.contact {
+  text-align: center;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer > p {
+  color: #000;
+  font-weight: 900;
+}
+
+.contact > p,
+.contact > ul {
+  color: #000;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.contact-info {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style-type: disc;
+  width: 400px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: left;
+  padding: 10px;
+  border: 3px solid #000;
+  box-shadow: 1px 2px;
+  margin: 10px 15px;
+}
+
+.display_none {
+  display: none;
+}
+
+.display_block {
+  display: block;
+}
+
+.display_flex {
+  display: flex;
+}

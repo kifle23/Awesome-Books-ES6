@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Awesome books</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/Images/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/Images/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="/Images/favicon_io/site.webmanifest">
+  <link rel="stylesheet" href="./index.css" />
+  <script type="module" src="./index.js" defer></script>
+</head>
+<body>
+  <header>
+    <a href="" class="logo">Awesome Books</a>
+    <nav>
+      <ul>
+        <li class="right-border"><a href="#list-info" id="list">List</a></li>
+        <li class="right-border">
+          <a href="#ad-new-info" id="add-new">Add New</a>
+        </li>
+        <li><a href="#contact-info" id="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="date-time">
+    <p id="date-time"></p>
+  </div>
+
+  <section class="list" id="list-info">
+    <h1>All awesome books</h1>
+    <table id="bookList"></table>
+  </section>
+
+  <section class="add-new" id="add-new-info">
+    <h1>Add a new book</h1>
+    <form id="addForm">
+      <input type="text" placeholder="Title" id="title" required />
+      <input type="text" placeholder="Author" id="author" required />
+      <button id="submit-book" type="submit">Add</button>
+    </form>
+  </section>
+
+  <section class="contact" id="contact-info">
+    <h1>Contact Information</h1>
+    <p>
+      Do you have any questions or you just want to say "Hello"? <br />
+      You can reach out to us!
+    </p>
+    <ul class="contact-info">
+      <li>Our email: example@mail.com</li>
+      <li>Our phone number: +0000000000</li>
+      <li>Our address: Addis Ababa, Ethiopia</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Copyright @...</p>
+  </footer>
+</body>
+</html>
